@@ -1,5 +1,7 @@
-from django.conf.urls import url,include
+from django.conf.urls import include, url
 
 urlpatterns = [
-    url(r'^$', include('snippets.urls'))
+    url(r'^', include('snippets.urls'))
 ]
+
+
